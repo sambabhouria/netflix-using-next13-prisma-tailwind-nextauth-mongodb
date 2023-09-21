@@ -1,3 +1,7 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    // if you want to desactivate the worning about img
+    "@next/next/no-img-element": "off"
+  }
 }
